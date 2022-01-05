@@ -1,8 +1,8 @@
 
-Original Author: Justin Richards
-Modified by: Bao Pham
-Date: 28/Oct/2015
-Revision Date: 04/Jan/2021
+Original Author: Justin Richards<br>
+Modified by: Bao Pham<br>
+Date: 28/Oct/2015<br>
+Revision Date: 04/Jan/2021<br>
 
 Title: Swampy Controller v1.0 for NodeMCU V3.0 (lua)
 
