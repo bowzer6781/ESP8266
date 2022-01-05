@@ -23,12 +23,20 @@ webclient regularly sends status via get method to log status<br>
 Runs on a ESP8266MOD from JayCar to IO breakout carrier board<br>
 https://www.jaycar.com.au/wifi-mini-esp8266-main-board/p/XC3802
 
-#Parts:
+#### Parts:
 
-* 1 x D1 Wifi Mini Board ESP8266MOD<br>
+* 1 x XC3802 D1 Wifi Mini Board ESP8266MOD
+* 1 x XC4514 Adruino Compatible DC Voltage Regulator
+* 4 x RR0548 100ohm 0.5w Resistors<br>
+* 1 x HM3414 4 Pin 0.1 Straight Locking Header 2.54 Pitch
+* 1 x HM3404 4 Pin 0.1 Crimp Pins 2.54 Pitch
+* 2 x HM3412 2 Pin 0.1 Straight Locking Header 2.54 Pitch
+* 2 x HM3402 2 Pin 0.1 Header Crimp Pins 2.54 pitch
+* 1m x WM4516 16 Core Rainbow Cable 0.12mm2 (26AWG)
 
 
-NodeMCU Documentation<br>
+
+__NodeMCU Documentation__<br>
 https://nodemcu.readthedocs.io/en/release/upload/<br>
 
 Firmware Created From nodeMCU-build.com<br>
