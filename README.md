@@ -7,6 +7,9 @@ Modified by: Bao Pham<br>
 Date: 28/Oct/2015<br>
 Revision Date: 04/Jan/2021<br>
 
+MarkDown Cheatsheet Link<br>
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images<br>
+
 Title: Swampy Controller v1.0 for NodeMCU V3.0 (lua)
 
 Description: Runs as webserver and webclient to control
@@ -94,20 +97,20 @@ Upload Swampy.lua to Controller first<br>
 Load init.lua using "Save to ESP" Button<br>
 
 
-#### IO ESP8266 pin<br>
-0.    RST N/C<br>
-1.    A0  to TTC103 Thermistor<br>
-2.    D0  N/C<br>
-3.    D5  ledFAN<br>
-4.    D6  ledCOOL<br>
-5.    D7  N/C<br>
-6.    D8  N/C<br>
-7.    3V3 3.3V+ From StepDown Regulator<br>
-8.    TX  N/C<br>
-9.    RX  N/C<br>
-10.   D1  swFAN Output<br>
-11.   D2  swCOOL Output<br>
+#### IO ESP8266 pin
+0.    RST N/C
+1.    A0  to TTC103 Thermistor
+2.    D0  N/C
+3.    D5  ledFAN
+4.    D6  ledCOOL
+5.    D7  N/C
+6.    D8  N/C
+7.    3V3 3.3V+ From StepDown Regulator
+8.    TX  N/C
+9.    RX  N/C
+10.   D1  swFAN Output
+11.   D2  swCOOL Output
 12.   D3  N/C
 13.   D4  N/C
 14.   G   3.3V- From StepDown Regulator<br>
-15.   5V  N/C<br>
+15.   5V  N/C
