@@ -28,6 +28,8 @@ Parts:
 * 1 x D1 Wifi Mini Board ESP8266MOD<br>
 
 
+NodeMCU Documentation<br>
+https://nodemcu.readthedocs.io/en/release/upload/<br>
 
 Firmware Created From nodeMCU-build.com<br>
 https://nodemcu-build.com/<br>
