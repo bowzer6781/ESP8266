@@ -66,9 +66,9 @@ To Change Baud Rate to 9600 issue:<br>
 `uart.setup(0,9600,8,0,1,1)`
 
 Flash Commmand:<br>
-esptool.py --port com7 write_flash -fm dio 0x00000 nodemcu-release-8-modules-2022-01-04-07-16-58-float.bin<br>
+`esptool.py --port com7 write_flash -fm dio 0x00000 nodemcu-release-8-modules-2022-01-04-07-16-58-float.bin`
 
-After Flashing, Boot in Normal Mode Connected at 115,200 on COM7 using ESPlorer v0.2.0 by 4refr0nt<br>
+After Flashing, Boot in Normal Mode Connected at 115,200 assuming COM7 is being used, via ESPlorer v0.2.0 by 4refr0nt<br>
 https://github.com/4refr0nt/ESPlorer<br>
 
 LUA Files:<br>
