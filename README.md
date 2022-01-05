@@ -79,17 +79,20 @@ Upload Swampy.lua to Controller first<br>
 Load init.lua using "Save to ESP" Button<br>
 
 
-####IO index    ESP8266 pin<br>
-0. [*]GPIO16 N/C<br>
-1.    GPIO5  swFAN Output<br>
-2.    GPIO4  swCOOL Output<br>
-3.    GPIO0  N/C<br>
-4.    GPIO2  N/C<br>
-5.    GPIO14 ledFAN Input  When 0 LED is on<br>
-6.    GPIO12 ledCOOL Input When 0 LED is on<br>
-7.    GPIO13 N/C<br>
-8.    GPIO15 N/C<br>
-9.    GPIO3  N/C<br>
-10.   GPIO1  N/C<br>
-11.   GPIO9  N/C<br>
-12.   GPIO10 N/C<br>
+#### IO index    ESP8266 pin<br>
+0.    RST N/C<br>
+1.    A0  to TTC103 Thermistor<br>
+2.    D0  N/C<br>
+3.    D5  ledFAN<br>
+4.    D6  ledCOOL<br>
+5.    D7  N/C<br>
+6.    D8  N/C<br>
+7.    3V3 3.3V+ From StepDown Regulator<br>
+8.    TX  N/C<br>
+9.    RX  N/C<br>
+10.   D1  swFAN Output<br>
+11.   D2  swCOOL Output<br>
+12.   D3  N/C
+13.   D4  N/C
+14.   G   3.3V- From StepDown Regulator<br>
+15.   5V  N/C<br>
