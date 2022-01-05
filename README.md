@@ -11,11 +11,11 @@ and monitor Celair Evaporative Airconditioner (aka Swampy) by directly
 interfacing to the LEDS and Button contacts on the remote controller.
 The remote controller is connect to the main Control Box TEKELEK TEK632 v8 via 4 wires.<br>
 
-_PIN:_<br>
-1 = RED	+5V<br>
-2 = WHT +5 Return<br>
-3 = BLU Comms<br>
-4 = BLK Gnd<br>
+__PIN:__<br>
+*1 = RED +5V
+*2 = WHT +5 Return
+*3 = BLU Comms
+*4 = BLK Gnd
 
 Webserver provides status of 2 LEDS and control of 2 push buttons
 webclient regularly sends status via get method to log status
