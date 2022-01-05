@@ -62,7 +62,8 @@ Config <br>
 * Flash Size 4MByte   
 * SPI Mode DIO
 
-To Change Baud Rate to 9600 issue: uart.setup(0,9600,8,0,1,1) <br>
+To Change Baud Rate to 9600 issue:<br> 
+`uart.setup(0,9600,8,0,1,1)`
 
 Flash Commmand:<br>
 esptool.py --port com7 write_flash -fm dio 0x00000 nodemcu-release-8-modules-2022-01-04-07-16-58-float.bin<br>
