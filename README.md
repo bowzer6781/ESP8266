@@ -1,13 +1,10 @@
 
 Original Author: Justin Richards
-
 Modified by: Bao Pham
-
 Date: 28/Oct/2015
-
 Revision Date: 04/Jan/2021
 
-Title: Swampy Controller v1.0
+Title: Swampy Controller v1.0 for NodeMCU V3.0 (lua)
 
 Description: Runs as webserver and webclient to control
 and monitor Celair Evaporative Airconditioner (aka Swampy) by directly
