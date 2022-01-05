@@ -79,17 +79,17 @@ Upload Swampy.lua to Controller first<br>
 Load init.lua using "Save to ESP" Button<br>
 
 
-IO index    ESP8266 pin<br>
-_0 [*]GPIO16 N/C<br>
-1    GPIO5  swFAN Output<br>
-2    GPIO4  swCOOL Output<br>
-3    GPIO0  N/C<br>
-4    GPIO2  N/C<br>
-5    GPIO14 ledFAN Input  When 0 LED is on<br>
-6    GPIO12 ledCOOL Input When 0 LED is on<br>
-7    GPIO13 N/C<br>
-8    GPIO15 N/C<br>
-9    GPIO3  N/C<br>
-10   GPIO1  N/C<br>
-11   GPIO9  N/C<br>
-12   GPIO10 N/C<br>
+####IO index    ESP8266 pin<br>
+0. [*]GPIO16 N/C<br>
+1.    GPIO5  swFAN Output<br>
+2.    GPIO4  swCOOL Output<br>
+3.    GPIO0  N/C<br>
+4.    GPIO2  N/C<br>
+5.    GPIO14 ledFAN Input  When 0 LED is on<br>
+6.    GPIO12 ledCOOL Input When 0 LED is on<br>
+7.    GPIO13 N/C<br>
+8.    GPIO15 N/C<br>
+9.    GPIO3  N/C<br>
+10.   GPIO1  N/C<br>
+11.   GPIO9  N/C<br>
+12.   GPIO10 N/C<br>
