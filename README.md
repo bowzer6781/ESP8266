@@ -29,57 +29,55 @@ Parts:
 
 
 
-Firmware Created From nodeMCU-build.com
-https://nodemcu-build.com/
+Firmware Created From nodeMCU-build.com<br>
+https://nodemcu-build.com/<br>
 
-NodeMCU 3.0.0.0 built on nodemcu-build.com provided by frightanic.com
-	branch: release
-	commit: f25dc56d3c6213b8ac7ce46d1293466137746eae
-	release: 
-	release DTS: 202112300746
-	SSL: false
-	build type: float
-	LFS: 0x0 bytes total capacity
-	modules: adc,file,gpio,net,node,tmr,uart,wifi
+NodeMCU 3.0.0.0 built on nodemcu-build.com provided by frightanic.com<br>
+	branch: release<br>
+	commit: f25dc56d3c6213b8ac7ce46d1293466137746eae<br>
+	release: <br>
+	release DTS: 202112300746<br>
+	SSL: false<br>
+	build type: float<br>
+	LFS: 0x0 bytes total capacity<br>
+	modules: adc,file,gpio,net,node,tmr,uart,wifi<br>
  build 2022-01-04 07:16 powered by Lua 5.1.4 on SDK 3.0.1-dev(fce080e)
 
-Initial Boot Normal Mode connected at 115,200 outputs 
+Initial Boot Normal Mode connected at 115,200 outputs <br>
 
-ReFlashed with esptool.py
-https://github.com/espressif/esptool
+ReFlashed with esptool.py<br>
+https://github.com/espressif/esptool<br>
 
-Pre-requisite Python Libraries - pyserial
+Pre-requisite Python Libraries - pyserial<br>
 
 
 Config 
-     - INTERNAL://NODEMCU  0x00000
-     - INTERNAL://BLANK    0x7E000
-     - INTERNAL://DEFAULT  0x7C000
+     * INTERNAL://NODEMCU  0x00000
+     * INTERNAL://BLANK    0x7E000
+     * INTERNAL://DEFAULT  0x7C000
  Advanced
-     -Baudrate 115,200
-     -Flash Size 4MByte
-     -Flash speed 40MHz   
-     -SPI Mode DIO
+     * Baudrate 115,200
+     * Flash Size 4MByte   
+     * SPI Mode DIO
 
-To Change Baud Rate to 9600 issue: uart.setup(0,9600,8,0,1,1) 
+To Change Baud Rate to 9600 issue: uart.setup(0,9600,8,0,1,1) <br>
 
-Flash Commmand:
+Flash Commmand:<br>
+esptool.py --port com7 write_flash -fm dio 0x00000 nodemcu-release-8-modules-2022-01-04-07-16-58-float.bin<br>
 
-esptool.py --port com7 write_flash -fm dio 0x00000 nodemcu-release-8-modules-2022-01-04-07-16-58-float.bin
+After Flashing, Boot in Normal Mode Connected at 115,200 on COM7 using ESPlorer v0.2.0 by 4refr0nt<br>
+https://github.com/4refr0nt/ESPlorer<br>
 
-After Flashing, Boot in Normal Mode Connected at 115,200 on COM7 using ESPlorer v0.2.0 by 4refr0nt
-https://github.com/4refr0nt/ESPlorer
+LUA Files:<br>
+init.lua   - contains SSID/WIFI Network Settings<br>
+Swampy.lua - contains code for Webserver and toggle logic to control board<br>
 
-LUA Files:
-init.lua   - contains SSID/WIFI Network Settings
-Swampy.lua - contains code for Webserver and toggle logic to control board
-
-Upload Swampy.lua to Controller first
-Load init.lua using "Save to ESP" Button
+Upload Swampy.lua to Controller first<br>
+Load init.lua using "Save to ESP" Button<br>
 
 
-IO index    ESP8266 pin
-0 [*]GPIO16 N/C
+IO index    ESP8266 pin<br>
+_0 [*]GPIO16 N/C
 1    GPIO5  swFAN Output
 2    GPIO4  swCOOL Output
 3    GPIO0  N/C
