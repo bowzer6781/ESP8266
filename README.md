@@ -1,5 +1,7 @@
 # CELAIR Evaporative Cooler Controller aka Swampy
 Original Author: Justin Richards<br>
+https://hackaday.io/project/8268-swampy-iot-controller<br>
+
 Modified by: Bao Pham<br>
 Date: 28/Oct/2015<br>
 Revision Date: 04/Jan/2021<br>
