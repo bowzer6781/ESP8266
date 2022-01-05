@@ -17,6 +17,12 @@ webclient regularly sends status via get method to log status
 Runs on a ESP8266MOD from JayCar to IO breakout carrier board
 https://www.jaycar.com.au/wifi-mini-esp8266-main-board/p/XC3802
 
+Parts:
+
+*D1 Wifi Mini Board<br>
+
+
+
 Firmware Created From nodeMCU-build.com
 https://nodemcu-build.com/
 
