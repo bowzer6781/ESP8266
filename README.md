@@ -51,14 +51,14 @@ https://github.com/espressif/esptool<br>
 Pre-requisite Python Libraries - pyserial<br>
 
 
-Config 
-     * INTERNAL://NODEMCU  0x00000
-     * INTERNAL://BLANK    0x7E000
-     * INTERNAL://DEFAULT  0x7C000
- Advanced
-     * Baudrate 115,200
-     * Flash Size 4MByte   
-     * SPI Mode DIO
+Config <br>
+* INTERNAL://NODEMCU  0x00000
+* INTERNAL://BLANK    0x7E000
+* INTERNAL://DEFAULT  0x7C000
+ Advanced<br>
+* Baudrate 115,200
+* Flash Size 4MByte   
+* SPI Mode DIO
 
 To Change Baud Rate to 9600 issue: uart.setup(0,9600,8,0,1,1) <br>
 
@@ -77,16 +77,16 @@ Load init.lua using "Save to ESP" Button<br>
 
 
 IO index    ESP8266 pin<br>
-_0 [*]GPIO16 N/C
-1    GPIO5  swFAN Output
-2    GPIO4  swCOOL Output
-3    GPIO0  N/C
-4    GPIO2  N/C
-5    GPIO14 ledFAN Input  When 0 LED is on
-6    GPIO12 ledCOOL Input When 0 LED is on
-7    GPIO13 N/C
-8    GPIO15 N/C
-9    GPIO3  N/C
-10   GPIO1  N/C
-11   GPIO9  N/C
-12   GPIO10 N/C
+_0 [*]GPIO16 N/C<br>
+1    GPIO5  swFAN Output<br>
+2    GPIO4  swCOOL Output<br>
+3    GPIO0  N/C<br>
+4    GPIO2  N/C<br>
+5    GPIO14 ledFAN Input  When 0 LED is on<br>
+6    GPIO12 ledCOOL Input When 0 LED is on<br>
+7    GPIO13 N/C<br>
+8    GPIO15 N/C<br>
+9    GPIO3  N/C<br>
+10   GPIO1  N/C<br>
+11   GPIO9  N/C<br>
+12   GPIO10 N/C<br>
