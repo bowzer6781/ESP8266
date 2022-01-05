@@ -9,9 +9,15 @@ Title: Swampy Controller v1.0 for NodeMCU V3.0 (lua)
 Description: Runs as webserver and webclient to control
 and monitor Celair Evaporative Airconditioner (aka Swampy) by directly
 interfacing to the LEDS and Button contacts on the remote controller.
-The remote controller is connect to the main Control Box TEKELEK TEK632 v8
-via 4 wires. +5V,+5 Return,Comms,Gnd
-webserver provides status of 2 LEDS and control of 2 buttons
+The remote controller is connect to the main Control Box TEKELEK TEK632 v8 via 4 wires. 
+
+PIN:
+1 = RED	+5V
+2 = WHT +5 Return
+3 = BLU Comms
+4 = BLK Gnd
+
+Webserver provides status of 2 LEDS and control of 2 push buttons
 webclient regularly sends status via get method to log status
 
 Runs on a ESP8266MOD from JayCar to IO breakout carrier board
@@ -19,7 +25,7 @@ https://www.jaycar.com.au/wifi-mini-esp8266-main-board/p/XC3802
 
 Parts:
 
-*D1 Wifi Mini Board<br>
+* 1 x D1 Wifi Mini Board<br>
 
 
 
