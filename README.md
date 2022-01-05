@@ -44,6 +44,9 @@ https://www.jaycar.com.au/wifi-mini-esp8266-main-board/p/XC3802
 #### Schematic 
 ![alt text](https://github.com/bowzer6781/Swampy/blob/main/schematic.JPG "Wiring Schematic")
 
+#### Installed
+![alt text](https://github.com/bowzer6781/Swampy/blob/main/swampypackaged.jpg "Swampy Packaged")
+
 
 __NodeMCU Documentation__<br>
 https://nodemcu.readthedocs.io/en/release/upload/<br>
