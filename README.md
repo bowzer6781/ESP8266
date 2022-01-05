@@ -87,7 +87,7 @@ Upload Swampy.lua to Controller first<br>
 Load init.lua using "Save to ESP" Button<br>
 
 
-#### IO index    ESP8266 pin<br>
+#### IO ESP8266 pin<br>
 0.    RST N/C<br>
 1.    A0  to TTC103 Thermistor<br>
 2.    D0  N/C<br>
