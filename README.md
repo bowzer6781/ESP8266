@@ -1,4 +1,4 @@
-
+# CELAIR Evaporative Cooler Controller aka Swampy
 Original Author: Justin Richards<br>
 Modified by: Bao Pham<br>
 Date: 28/Oct/2015<br>
@@ -23,7 +23,7 @@ webclient regularly sends status via get method to log status
 Runs on a ESP8266MOD from JayCar to IO breakout carrier board
 https://www.jaycar.com.au/wifi-mini-esp8266-main-board/p/XC3802
 
-Parts:
+#Parts:
 
 * 1 x D1 Wifi Mini Board ESP8266MOD<br>
 
