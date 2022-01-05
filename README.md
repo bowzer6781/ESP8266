@@ -41,9 +41,8 @@ https://www.jaycar.com.au/wifi-mini-esp8266-main-board/p/XC3802
 * 1m x WM4516 16 Core Rainbow Cable 0.12mm2 (26AWG)
 
 
-#### Schematic
-Inline-style: 
-![alt text](https://github.com/bowzer6781/Swampy/blob/main/schematic.JPG "Logo Title Text 1")
+#### Schematic 
+![alt text](https://github.com/bowzer6781/Swampy/blob/main/schematic.JPG "Wiring Schematic")
 
 
 __NodeMCU Documentation__<br>
