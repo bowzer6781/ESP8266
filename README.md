@@ -18,9 +18,9 @@ __PIN:__<br>
 4. = BLK Gnd
 
 Webserver provides status of 2 LEDS and control of 2 push buttons
-webclient regularly sends status via get method to log status
+webclient regularly sends status via get method to log status<br>
 
-Runs on a ESP8266MOD from JayCar to IO breakout carrier board
+Runs on a ESP8266MOD from JayCar to IO breakout carrier board<br>
 https://www.jaycar.com.au/wifi-mini-esp8266-main-board/p/XC3802
 
 #Parts:
